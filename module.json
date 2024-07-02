@@ -1,0 +1,28 @@
+{
+	"id": "beyond-dice",
+	"name": "beyond-dice",
+	"title": "BeyondDice",
+	"description": "Adds DnDBeyond dice skins to the Dice so Nice! module in FoundryVTT",
+	"version": "1.0.0",
+	"minimumCoreVersion" : "0.8.4",
+	"compatibleCoreVersion" : "12",
+	"compatibility": {
+		"minimum": "0.8.4",
+		"verified": "12"
+	  },
+	"author": "Lyra [he/him]",
+	"relationships.requires": {
+		"type": "module",
+		"name": "dice-so-nice",
+		"id": "dice-so-nice"
+	},
+	"scripts": [
+		"dice.js"
+	],
+	"url": "https://github.com/revilowaldow/BeyondDice",
+	"manifest": "https://raw.githubusercontent.com/revilowaldow/BeyondDice/main/module.json",
+	"download": "https://raw.githubusercontent.com/revilowaldow/BeyondDice/main/module.zip",
+	"license": "https://raw.githubusercontent.com/revilowaldow/BeyondDice/main/LICENSE",
+	"readme": "https://raw.githubusercontent.com/revilowaldow/BeyondDice/main/README.md",
+	"bugs": "https://github.com/revilowaldow/BeyondDice/issues"
+}

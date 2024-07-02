@@ -1,0 +1,5 @@
+{
+  "dev-dependencies": {
+    "gltf-import-export": "^1.0.22"
+  }
+}
