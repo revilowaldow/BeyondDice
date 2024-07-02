@@ -1,12 +1,6 @@
 Hooks.once('diceSoNiceReady', (dice3d) => {
 	dice3d.addSystem({id: "clockwork", name: "Clockwork Dice Set"}, false);
 	dice3d.addDicePreset({
-		type: "d2",
-		labels: "",
-		modelFile: "modules/beyond-dice/dice/clockwork/d2.glb",
-		system: "clockwork"
-	});
-	dice3d.addDicePreset({
 		type: "d4",
 		labels: "",
 		modelFile: "modules/beyond-dice/dice/clockwork/d4.glb",
